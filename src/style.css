@@ -9,3 +9,14 @@ body,
 body {
   @apply bg-zinc-100 text-zinc-900;
 }
+
+@theme {
+  --color-primary: #2563EB;
+  --color-sucess: #16A34A;
+  --color-warning: #D97706;
+  --color-error: #DC2626;
+  --color-neutral-1: #F8FAFC;
+  --color-neutral-2: #E2E8F0;
+  --color-neutral-3: #64748B;
+  --color-neutral-4: #0F172A;
+}
