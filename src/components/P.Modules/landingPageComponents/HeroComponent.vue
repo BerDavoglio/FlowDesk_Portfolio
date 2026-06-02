@@ -23,6 +23,6 @@
 
 
 <script setup>
-import GenericButtom from '@/components/A.Base/GenericButtom.vue';
+import GenericButtom from '@/components/A.Base/Inputs/GenericButtom.vue';
 
 </script>

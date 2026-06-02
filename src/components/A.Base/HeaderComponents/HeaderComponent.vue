@@ -15,7 +15,7 @@
 </template>
 
 <script setup>
-import GenericButtom from '../GenericButtom.vue';
+import GenericButtom from '../Inputs/GenericButtom.vue';
 import HeaderMenuItem from './HeaderMenuItem.vue';
 
 </script>

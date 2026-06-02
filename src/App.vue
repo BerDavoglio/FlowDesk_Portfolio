@@ -7,7 +7,7 @@
 </template>
 
 <script setup>
-import FooterComponent from './components/A.Base/FooterComponent.vue';
-import HeaderComponent from './components/A.Base/HeaderComponent/HeaderComponent.vue';
+import FooterComponent from './components/A.Base/FooterComponents/FooterComponent.vue';
+import HeaderComponent from './components/A.Base/HeaderComponents/HeaderComponent.vue';
 
 </script>
