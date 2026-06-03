@@ -36,9 +36,14 @@ It's an Intern Management System where users can create requests, tasks, and pro
 
 ## GIT Commit messages conventions
 
-``feat: nova funcionalidade
-fix: correção de bug
-refactor: reorganização de código
-style: ajustes visuais
-docs: documentação
-chore: tarefas de manutenção``
+``feat: new feature``
+
+``fix: bug correction``
+
+``refactor: code reorgnize``
+
+``style: visual adjusts``
+
+``docs: docs``
+
+``chore: maintainance``
