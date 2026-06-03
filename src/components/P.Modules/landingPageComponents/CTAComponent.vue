@@ -1,8 +1,11 @@
 <template>
-  <div>
+  <div class="flex justify-center items-center gap-4 py-8">
     <div>Pronto para organizar sua equipe?</div>
-    <div>Botão "Criar conta"</div>
+    <GenericButtom text="Começar gratuitamente" />
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import GenericButtom from '@/components/A.Base/Inputs/GenericButtom.vue';
+
+</script>

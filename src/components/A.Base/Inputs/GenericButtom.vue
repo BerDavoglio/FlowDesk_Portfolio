@@ -1,5 +1,5 @@
 <template>
-  <div :class="['h-11 px-6 rounded-lg content-center cursor-pointer',
+  <div :class="['h-11 w-fit px-6 rounded-lg content-center cursor-pointer',
     isPrimary
       ? 'border border-primary'
       : 'bg-primary text-white']">
