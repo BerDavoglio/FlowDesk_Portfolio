@@ -22,7 +22,13 @@
       </div>
     </div>
     <div class="border border-primary my-3" />
-    <div class="text-sm">© 2026 FlowDesk. Todos os direitos reservados. </div>
+    <div class="flex justify-between">
+      <div class="text-sm">© 2026 FlowDesk. Todos os direitos reservados. </div>
+      <div class="flex gap-4">
+        <FooterMenuItem text="GitHub" class="text-sm" />
+        <FooterMenuItem text="Linkedin" class="text-sm" />
+      </div>
+    </div>
   </div>
 </template>
 
