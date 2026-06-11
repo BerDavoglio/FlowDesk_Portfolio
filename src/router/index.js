@@ -1,12 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-import LandingView from '@/views/LandingView.vue'
-import AnalyticsView from '@/views/AnalyticsView.vue'
-import DashboardView from '@/views/DashboardView.vue'
-import KanbanView from '@/views/KanbanView.vue'
-import LoginView from '@/views/LoginView.vue'
-import PerfilView from '@/views/PerfilView.vue'
-import RequestsView from '@/views/RequestsView.vue'
+import AnalyticsView from '@/views/AuthorizedViews/AnalyticsView.vue'
+import DashboardView from '@/views/AuthorizedViews/DashboardView.vue'
+import KanbanView from '@/views/AuthorizedViews/KanbanView.vue'
+import PerfilView from '@/views/AuthorizedViews/PerfilView.vue'
+import RequestsView from '@/views/AuthorizedViews/RequestsView.vue'
+import LandingView from '@/views/UnauthorizedViews/LandingView.vue'
+import LoginView from '@/views/UnauthorizedViews/LoginView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
